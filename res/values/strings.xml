@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pilow NFC</string>
+    <string name="title_activity_sample">Sample activity</string>
+
+    <string name="wait_write_dialog_title">Write on NFC Tag</string>
+    <string name="wait_write_dialog_text">Aproach an NFC tag to be written</string>
+    <string name="tag_written_toast">Tag written</string>
+    <string name="cancel">Cancel</string>
+</resources>
