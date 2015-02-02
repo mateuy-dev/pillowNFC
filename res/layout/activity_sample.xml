@@ -10,9 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cat.my.android.nfcpilow.SampleActivity" >
 
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aproach the tag to read, or press write to write a tag"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
     <Button
         android:id="@+id/write_button"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="write" />
 

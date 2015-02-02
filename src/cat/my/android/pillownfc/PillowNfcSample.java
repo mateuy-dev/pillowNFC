@@ -20,7 +20,7 @@ import android.widget.Toast;
 /**
  * Sample activity
  */
-public class SampleActivity extends ActionBarActivity {
+public class PillowNfcSample extends ActionBarActivity {
 	PillowNfcManager nfcManager;
 	WriteTagHelper writeHelper;
 
@@ -35,7 +35,7 @@ public class SampleActivity extends ActionBarActivity {
 		nfcManager.setOnTagReadListener(new TagReadListener() {
 			@Override
 			public void onTagRead(String tagRead) {
-				Toast.makeText(SampleActivity.this, "tag read:"+tagRead, Toast.LENGTH_LONG).show();
+				Toast.makeText(PillowNfcSample.this, "tag read:"+tagRead, Toast.LENGTH_LONG).show();
 			}
 		});
 		

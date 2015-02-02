@@ -5,7 +5,7 @@
     <string name="title_activity_sample">Sample activity</string>
 
     <string name="wait_write_dialog_title">Write on NFC Tag</string>
-    <string name="wait_write_dialog_text">Aproach an NFC tag to be written</string>
+    <string name="wait_write_dialog_text">Aproach an NFC tag</string>
     <string name="tag_written_toast">Tag written</string>
     <string name="cancel">Cancel</string>
 </resources>
